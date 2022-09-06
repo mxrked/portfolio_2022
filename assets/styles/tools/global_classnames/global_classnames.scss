@@ -1,0 +1,14 @@
+.deactive {
+  opacity: 0;
+  visibility: hidden;
+}
+.visible {
+  opacity: 1;
+  visibility: visible;
+}
+.full-second {
+  transition: 1s ease-in-out;
+}
+.half-second {
+  transition: 0.5s ease-in-out;
+}

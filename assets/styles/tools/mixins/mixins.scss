@@ -1,0 +1,53 @@
+@mixin padding($t, $b, $l, $r) {
+  padding-top: $t;
+  padding-bottom: $b;
+  padding-left: $l;
+  padding-right: $r;
+}
+@mixin margin($t, $b, $l, $r) {
+  margin-top: $t;
+  margin-bottom: $b;
+  margin-left: $l;
+  margin-right: $r;
+}
+@mixin centerElement($d, $jC, $aI) {
+  display: $d;
+  justify-content: $jC;
+  align-items: $aI;
+}
+@mixin coverBG() {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+@mixin positionAbsolute_Fixed($v, $h, $vP, $hP) {
+  @if $v == top {
+    top: $vP;
+
+    @if $h == left {
+      left: $hP;
+    }
+
+    @if $h == right {
+      right: $hP;
+    }
+  }
+
+  @if $v == bottom {
+    bottom: $vP;
+
+    @if $h == left {
+      left: $hP;
+    }
+
+    @if $h == right {
+      right: $hP;
+    }
+  }
+}
+@mixin placeholderElement($w, $h) {
+  width: $w;
+  height: $h;
+  border: 2px solid black;
+  background-color: red;
+}

@@ -1,0 +1,356 @@
+@font-face {
+  font-family: "Raleway Black";
+  src: url("../../../fonts/Raleway/Raleway-Black.ttf");
+}
+
+@font-face {
+  font-family: "Raleway Extra Bold";
+  src: url("../../../fonts/Raleway/Raleway-ExtraBold.ttf");
+}
+
+@font-face {
+  font-family: "Raleway Bold";
+  src: url("../../../fonts/Raleway/Raleway-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Raleway Semi Bold";
+  src: url("../../../fonts/Raleway/Raleway-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: "Raleway Medium";
+  src: url("../../../fonts/Raleway/Raleway-Medium.ttf");
+}
+
+@font-face {
+  font-family: "Raleway Regular";
+  src: url("../../../fonts/Raleway/Raleway-Regular.ttf");
+}
+
+.error_cnt {
+  height: 100vh;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.error_cnt .error_cnt_inner {
+  max-width: 800px;
+}
+
+.error_cnt .error_cnt_inner .error_cnt_above_heading {
+  font-family: "Raleway Bold";
+  font-size: 15px;
+  opacity: 0.5;
+}
+
+.error_cnt .error_cnt_inner h1 {
+  font-family: "Raleway Extra Bold";
+  font-size: clamp(1.725rem, calc(12px + 2vw), 2.175rem);
+  padding-top: 10px;
+  padding-bottom: 30px;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.error_cnt .error_cnt_inner p {
+  font-family: "Raleway Medium";
+  font-size: 19px;
+  padding-top: 0;
+  padding-bottom: 30px;
+  padding-left: 0;
+  padding-right: 0;
+  max-width: 695px;
+}
+
+.error_cnt .error_cnt_inner .error_cnt_link {
+  width: 100%;
+  max-width: 110px;
+  border: 2px solid #00203f;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  height: 45px;
+  cursor: pointer;
+}
+
+.error_cnt .error_cnt_inner .error_cnt_link:hover {
+  background-color: #00203f;
+}
+
+.error_cnt .error_cnt_inner .error_cnt_link:hover span {
+  color: white;
+}
+
+.error_cnt .error_cnt_inner .error_cnt_link span {
+  font-family: "Raleway Bold";
+}
+
+@media all and (max-width: 1995px) {
+  .error_cnt .error_cnt_inner {
+    max-width: 80%;
+  }
+}
+
+@media all and (max-width: 991px) {
+  .error_cnt .error_cnt_inner {
+    max-width: 80%;
+  }
+  .error_cnt .error_cnt_inner .error_cnt_above_heading {
+    font-size: 13px;
+  }
+  .error_cnt .error_cnt_inner h1 {
+    font-size: 30px;
+  }
+  .error_cnt .error_cnt_inner p {
+    font-size: 17px;
+    max-width: 80%;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .error_cnt .error_cnt_inner {
+    max-width: 80%;
+  }
+  .error_cnt .error_cnt_inner .error_cnt_above_heading {
+    font-size: 13px;
+  }
+  .error_cnt .error_cnt_inner h1 {
+    font-size: 25px;
+  }
+  .error_cnt .error_cnt_inner p {
+    font-size: 15px;
+    max-width: 85%;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .error_cnt .error_cnt_inner .error_cnt_link {
+    height: 40px;
+    max-width: 100px;
+  }
+  .error_cnt .error_cnt_inner .error_cnt_link span {
+    font-size: 15px;
+  }
+}
+
+@media all and (max-width: 419px) {
+  .error_cnt .error_cnt_inner {
+    max-width: 80%;
+  }
+  .error_cnt .error_cnt_inner .error_cnt_above_heading {
+    font-size: 13px;
+  }
+  .error_cnt .error_cnt_inner h1 {
+    font-size: 25px;
+    padding-bottom: 20px;
+  }
+  .error_cnt .error_cnt_inner p {
+    font-size: 13px;
+    max-width: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .error_cnt .error_cnt_inner .error_cnt_link {
+    height: 35px;
+    max-width: 85px;
+  }
+  .error_cnt .error_cnt_inner .error_cnt_link span {
+    font-size: 13px;
+  }
+}
+
+@media only screen and (min-device-width: 411px) and (max-device-width: 823px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  .error_cnt .error_cnt_inner {
+    max-width: 80%;
+  }
+  .error_cnt .error_cnt_inner .error_cnt_above_heading {
+    font-size: 13px;
+  }
+  .error_cnt .error_cnt_inner h1 {
+    font-size: 30px;
+    padding-bottom: 20px;
+  }
+  .error_cnt .error_cnt_inner p {
+    font-size: 15px;
+    max-width: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .error_cnt .error_cnt_inner .error_cnt_link {
+    height: 40px;
+    max-width: 95px;
+  }
+  .error_cnt .error_cnt_inner .error_cnt_link span {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+  .error_cnt .error_cnt_inner {
+    max-width: 80%;
+  }
+  .error_cnt .error_cnt_inner .error_cnt_above_heading {
+    font-size: 13px;
+  }
+  .error_cnt .error_cnt_inner h1 {
+    font-size: 30px;
+    padding-bottom: 20px;
+  }
+  .error_cnt .error_cnt_inner p {
+    font-size: 15px;
+    max-width: 90%;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .error_cnt .error_cnt_inner .error_cnt_link {
+    height: 40px;
+    max-width: 95px;
+  }
+  .error_cnt .error_cnt_inner .error_cnt_link span {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
+  .error_cnt .error_cnt_inner {
+    max-width: 80%;
+  }
+  .error_cnt .error_cnt_inner .error_cnt_above_heading {
+    font-size: 13px;
+  }
+  .error_cnt .error_cnt_inner h1 {
+    font-size: 30px;
+    padding-bottom: 20px;
+  }
+  .error_cnt .error_cnt_inner p {
+    font-size: 15px;
+    max-width: 90%;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .error_cnt .error_cnt_inner .error_cnt_link {
+    height: 40px;
+    max-width: 95px;
+  }
+  .error_cnt .error_cnt_inner .error_cnt_link span {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  .error_cnt .error_cnt_inner {
+    max-width: 80%;
+  }
+  .error_cnt .error_cnt_inner .error_cnt_above_heading {
+    font-size: 13px;
+  }
+  .error_cnt .error_cnt_inner h1 {
+    font-size: 40px;
+    padding-bottom: 20px;
+  }
+  .error_cnt .error_cnt_inner p {
+    font-size: 17px;
+    max-width: 80%;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .error_cnt .error_cnt_inner .error_cnt_link {
+    height: 40px;
+    max-width: 95px;
+  }
+  .error_cnt .error_cnt_inner .error_cnt_link span {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  .error_cnt .error_cnt_inner {
+    max-width: 80%;
+  }
+  .error_cnt .error_cnt_inner .error_cnt_above_heading {
+    font-size: 13px;
+  }
+  .error_cnt .error_cnt_inner h1 {
+    font-size: 40px;
+    padding-bottom: 20px;
+  }
+  .error_cnt .error_cnt_inner p {
+    font-size: 17px;
+    max-width: 80%;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .error_cnt .error_cnt_inner .error_cnt_link {
+    height: 40px;
+    max-width: 95px;
+  }
+  .error_cnt .error_cnt_inner .error_cnt_link span {
+    font-size: 15px;
+  }
+}
+
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
+  .error_cnt .error_cnt_inner {
+    max-width: 80%;
+  }
+  .error_cnt .error_cnt_inner .error_cnt_above_heading {
+    font-size: 13px;
+  }
+  .error_cnt .error_cnt_inner h1 {
+    font-size: 40px;
+    padding-bottom: 20px;
+  }
+  .error_cnt .error_cnt_inner p {
+    font-size: 17px;
+    max-width: 80%;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .error_cnt .error_cnt_inner .error_cnt_link {
+    height: 40px;
+    max-width: 95px;
+  }
+  .error_cnt .error_cnt_inner .error_cnt_link span {
+    font-size: 15px;
+  }
+}
+/*# sourceMappingURL=Error.module.css.map */
